@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+@font-face {
+    font-family: 'sansus_webissimoregular';
+    src: url('../fonts/sansus-webissimo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sansus-webissimo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin webissimo() {
+	font-family: 'sansus_webissimoregular';
+	font-weight: 600;
+}
+
+@mixin roboto($style) {
+	font-family: 'Roboto';
+
+	@if $style == bold {
+		font-weight: 500;
+	}
+
+	@if $style == regular {
+		font-weight: 400;
+	}
+
+	@if $style == light {
+		font-weight: 300;
+	}
+}

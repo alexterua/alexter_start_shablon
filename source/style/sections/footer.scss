@@ -1,0 +1,8 @@
+.footer {
+	@extend %clearfix;
+	width: 100%;	
+	height: $footer-height;
+	margin-top: -$footer-height;
+	@include roboto(light);	
+	border: 3px solid $black;
+}

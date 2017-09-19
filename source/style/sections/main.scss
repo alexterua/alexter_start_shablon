@@ -1,0 +1,11 @@
+.main {
+	width: 100%;
+}
+
+.main__content {	
+	min-height: $main_content-height;
+	float: left;
+	width: 75%;
+	position: relative;	
+	border: 3px solid $black;
+}
