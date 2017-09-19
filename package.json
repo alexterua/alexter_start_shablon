@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "shablon",
   "version": "1.0.0",
-  "description": "my site portfolio",
+  "description": "my start shablon",
   "keywords": [],
-  "author": "alexterua",
+  "author": "alexter",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "~2.18.7",
@@ -25,7 +25,8 @@
     "gulp-sourcemaps": "~2.6.0",
     "gulp-svg-sprite": "~1.3.1",
     "gulp-svgmin": "~1.2.2",
-    "gulp.spritesmith": "^6.5.1"
+    "gulp.spritesmith": "^6.5.1",
+    "slimerjs": "^0.10.3"
   },
   "dependencies": {
     "normalize.css": "~7.0.0",

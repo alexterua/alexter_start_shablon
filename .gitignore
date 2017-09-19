@@ -33,6 +33,7 @@ Thumbs.db
 bower_components
 dist
 build
+backstop_data
 
 # Node.JS
 node_modules
